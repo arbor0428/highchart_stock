@@ -1,0 +1,313 @@
+<div class="mdd_graph">
+	<div id="mddgraph01" style="width: 700px; height: 200px; margin: 0 auto;"></div>
+</div>
+<script>
+	$(function () {
+		//첫번째 데이터 값
+		let mddgraphFirst = [];
+		let prev = -100;
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphFirst.push({x: i, y: prev});
+		}
+
+		//두번째 데이터 값
+		let mddgraphSecond = [];
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphSecond.push({x: i, y: prev});
+		}
+
+		Highcharts.chart('mddgraph01', {
+		  chart: {
+			zoomType: 'x'
+		  },
+		  title: {
+			text: ''
+		  },
+		  xAxis: {
+			type: 'datetime',
+			  labels: {
+				formatter: function() {
+				  return Highcharts.dateFormat('%b %Y', this.value);
+				}
+			}
+		  },
+		  yAxis: {
+			title: {
+			  text: ''
+			},
+			reversed: true,
+			max: 0
+		  },
+		  legend: {
+			enabled: false
+		  },
+			credits: {
+				 enabled: false
+			},
+		  exporting: {
+			enabled: false
+		  },
+		  plotOptions: {
+			area: {
+			  marker: {
+				radius: 2
+			  },
+			  lineWidth: 1,
+			  states: {
+				hover: {
+				  lineWidth: 1
+				}
+			  },
+			  threshold: null
+			}
+		  },
+		  series: [{
+			type: 'area',
+			name: '',
+			data: mddgraphFirst, //첫번째 데이터값
+			 fillColor: {
+				linearGradient: {
+				  x1: 0,
+				  y1: 0,
+				  x2: 0,
+				  y2: 1
+			 },
+			stops: [
+			  [0, 'rgb(57,161,232,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  },{
+			type: 'area',
+			name: '',
+			data: mddgraphSecond,  //두번째 데이터값
+			color: '#f86a87',
+		  fillColor: {
+			linearGradient: {
+			  x1: 0,
+			  y1: 0,
+			  x2: 0,
+			  y2: 1
+			},
+			stops: [
+			  [0, 'rgb(248,106,135,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  }]
+		});
+	});
+</script>
+<!--chart 2--->
+<div class="mdd_graph">
+	<div id="mddgraph02" style="width: 700px; height: 200px; margin: 0 auto;"></div>
+</div>
+<script>
+	$(function () {
+		//첫번째 데이터 값
+		let mddgraphFirst = [];
+		let prev = -100;
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphFirst.push({x: i, y: prev});
+		}
+
+		//두번째 데이터 값
+		let mddgraphSecond = [];
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphSecond.push({x: i, y: prev});
+		}
+
+		Highcharts.chart('mddgraph02', {
+		  chart: {
+			zoomType: 'x'
+		  },
+		  title: {
+			text: ''
+		  },
+		  xAxis: {
+			type: 'datetime',
+			  labels: {
+				formatter: function() {
+				  return Highcharts.dateFormat('%b %Y', this.value);
+				}
+			}
+		  },
+		  yAxis: {
+			title: {
+			  text: ''
+			},
+			reversed: true,
+			max: 0
+		  },
+		  legend: {
+			enabled: false
+		  },
+			credits: {
+				 enabled: false
+			},
+		  exporting: {
+			enabled: false
+		  },
+		  plotOptions: {
+			area: {
+			  marker: {
+				radius: 2
+			  },
+			  lineWidth: 1,
+			  states: {
+				hover: {
+				  lineWidth: 1
+				}
+			  },
+			  threshold: null
+			}
+		  },
+		  series: [{
+			type: 'area',
+			name: '',
+			data: mddgraphFirst, //첫번째 데이터값
+			 fillColor: {
+				linearGradient: {
+				  x1: 0,
+				  y1: 0,
+				  x2: 0,
+				  y2: 1
+			 },
+			stops: [
+			  [0, 'rgb(57,161,232,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  },{
+			type: 'area',
+			name: '',
+			data: mddgraphSecond,  //두번째 데이터값
+			color: '#f86a87',
+		  fillColor: {
+			linearGradient: {
+			  x1: 0,
+			  y1: 0,
+			  x2: 0,
+			  y2: 1
+			},
+			stops: [
+			  [0, 'rgb(248,106,135,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  }]
+		});
+	});
+</script>
+<!--chart 3--->
+<div class="mdd_graph">
+	<div id="mddgraph03" style="width: 700px; height: 200px; margin: 0 auto;"></div>
+</div>
+<script>
+	$(function () {
+		//첫번째 데이터 값
+		let mddgraphFirst = [];
+		let prev = -100;
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphFirst.push({x: i, y: prev});
+		}
+
+		//두번째 데이터 값
+		let mddgraphSecond = [];
+		for (let i = 0; i < 500; i++) {
+		  prev += 5 - Math.random() * 10;
+		  mddgraphSecond.push({x: i, y: prev});
+		}
+
+		Highcharts.chart('mddgraph03', {
+		  chart: {
+			zoomType: 'x'
+		  },
+		  title: {
+			text: ''
+		  },
+		  xAxis: {
+			type: 'datetime',
+			  labels: {
+				formatter: function() {
+				  return Highcharts.dateFormat('%b %Y', this.value);
+				}
+			}
+		  },
+		  yAxis: {
+			title: {
+			  text: ''
+			},
+			reversed: true,
+			max: 0
+		  },
+		  legend: {
+			enabled: false
+		  },
+			credits: {
+				 enabled: false
+			},
+		  exporting: {
+			enabled: false
+		  },
+		  plotOptions: {
+			area: {
+			  marker: {
+				radius: 2
+			  },
+			  lineWidth: 1,
+			  states: {
+				hover: {
+				  lineWidth: 1
+				}
+			  },
+			  threshold: null
+			}
+		  },
+		  series: [{
+			type: 'area',
+			name: '',
+			data: mddgraphFirst, //첫번째 데이터값
+			 fillColor: {
+				linearGradient: {
+				  x1: 0,
+				  y1: 0,
+				  x2: 0,
+				  y2: 1
+			 },
+			stops: [
+			  [0, 'rgb(57,161,232,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  },{
+			type: 'area',
+			name: '',
+			data: mddgraphSecond,  //두번째 데이터값
+			color: '#f86a87',
+		  fillColor: {
+			linearGradient: {
+			  x1: 0,
+			  y1: 0,
+			  x2: 0,
+			  y2: 1
+			},
+			stops: [
+			  [0, 'rgb(248,106,135,0.7)'],
+			  [1, 'rgb(255,255,255,0.5)']
+			]
+		  }
+		  }]
+		});
+	});
+</script>
+
+<style>
+	.mdd_graph {display: none; position: absolute !important; width: 100%;}
+	.mdd_graph:nth-child(1) {display: block;}
+</style>

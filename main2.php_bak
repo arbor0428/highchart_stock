@@ -1,0 +1,1381 @@
+<?
+	include 'header.php';
+?>
+
+<div class="content">
+	<div class="inner">
+		<!-- S&P 500 그래프 -->
+		<iframe name='graph01' src='graph01.php' style='width:1280px;height:80px;' frameborder='0' scrolling='no'></iframe>
+		<!-- /S&P 500 그래프 -->
+
+
+		<section class="cont01">
+			<h3 class="sub_tit">
+				오늘의 특징주와 ETF
+			</h3>
+			<?
+//				include 'tab01.php';
+				include 'TodayStockETF.php';
+			?>
+		</section>
+		
+		<section class="cont02">
+			<h3 class="sub_tit">
+				누가누가 잘하나!?
+			</h3>
+
+			<div class="tema_btn">
+				<a href="" title="더 많은 테마보기">+ 더 많은 테마보기</a>
+			</div>
+			
+			<div class="joo_api_wrap">
+				<div class="joo_wrap">
+					<div class="joo_top">
+
+						<div class="joo_box">
+							<h4>전통의 가치주!</h4>
+							<p class="joo_detail">평소엔 대중교통도 좋지만, 가끔 드라이브로<br>
+								기분전환도 필요. 자동차와 모터사이클 생산 기업</p>
+							<div class="api_box">
+								<a href="">
+									<ul>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+									</ul>
+									<div class="pergo">
+										<span>+22.80%</span>
+										<span class="lnr lnr-chevron-right"></span>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="vs_img">
+							<img src="./img/vs_icon.png">
+						</div>
+
+						<div class="joo_box">
+							<h4>미래를 보는 성장주!</h4>
+							<p class="joo_detail">컴퓨터, 스마트폰 등 주요 스마트 기기의 두뇌인<br>
+								반도체를 생산하는기업  </p>
+							<div class="api_box">
+								<a href="">
+									<ul>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+									</ul>
+									<div class="pergo">
+										<span>+22.80%</span>
+										<span class="lnr lnr-chevron-right"></span>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="joo_bottom">
+						<?
+							include 'graph02.php';
+						?>
+					</div>
+				</div>
+
+
+
+				<div class="joo_wrap">
+					<div class="joo_top">
+						<div class="joo_box bg_gry">
+							<h4>은행주!</h4>
+							<p class="joo_detail">평소엔 대중교통도 좋지만, 가끔 드라이브로<br>
+								기분전환도 필요. 자동차와 모터사이클 생산 기업</p>
+							<div class="api_box">
+								<a href="">
+									<ul>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+									</ul>
+									<div class="pergo">
+										<span>+22.80%</span>
+										<span class="lnr lnr-chevron-right"></span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="vs_img">
+							<img src="./img/vs_icon.png">
+						</div>
+						<div class="joo_box bg_gry">
+							<h4>부동산 리츠!</h4>
+							<p class="joo_detail">컴퓨터, 스마트폰 등 주요 스마트 기기의 두뇌인<br>
+								반도체를 생산하는기업  </p>
+							<div class="api_box">
+								<a href="">
+									<ul>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+										<li><!--이미지 api 연결--></li>
+									</ul>
+									<div class="pergo">
+										<span>+22.80%</span>
+										<span class="lnr lnr-chevron-right"></span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="joo_bottom">
+						<?
+							include 'graph03.php';
+						?>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+		<section class="cont03">
+			<h3 class="sub_tit">
+				테마별 종목도 뽑아보았어요!
+			</h3>
+
+			<div class="tema_btn">
+				<a href="" title="더 많은 테마보기">+ 더 많은 테마보기</a>
+			</div>
+			
+			<div class="kind_invest_api">
+				<div class="joo_box bg_gry">
+					<h4>신나는 드라이빙</h4>
+					<p class="joo_detail">평소엔 대중교통도 좋지만, 가끔 드라이브로<br>
+						기분전환도 필요. 자동차와 모터사이클 생산 기업</p>
+					<div class="api_box">
+						<a href="">
+							<ul>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+							</ul>
+							<div class="pergo">
+								<span>+22.80%</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="joo_box bg_gry">
+					<h4>반도체</h4>
+					<p class="joo_detail">컴퓨터, 스마트폰 등 주요 스마트 기기의 두뇌인<br>
+						반도체를 생산하는기업  </p>
+					<div class="api_box">
+						<a href="">
+							<ul>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+							</ul>
+							<div class="pergo">
+								<span>+22.80%</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="joo_box bg_gry">
+					<h4>신나는 드라이빙</h4>
+					<p class="joo_detail">평소엔 대중교통도 좋지만, 가끔 드라이브로<br>
+						기분전환도 필요. 자동차와 모터사이클 생산 기업</p>
+					<div class="api_box">
+						<a href="">
+							<ul>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+							</ul>
+							<div class="pergo">
+								<span>+22.80%</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="joo_box bg_gry">
+					<h4>반도체</h4>
+					<p class="joo_detail">컴퓨터, 스마트폰 등 주요 스마트 기기의 두뇌인<br>
+						반도체를 생산하는기업  </p>
+					<div class="api_box">
+						<a href="">
+							<ul>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+								<li><!--이미지 api 연결--></li>
+							</ul>
+							<div class="pergo">
+								<span>+22.80%</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cont04">
+			<h3 class="sub_tit">
+				미국 시장 주요이슈, 배당락, 실적발표 등 확인하세요!
+			</h3>
+			<div class="sub_inner">
+				<div class="invest_info_wrap">
+						<div class="fix_tit">
+							투자원칙
+						</div>
+						<div class="invest_info">
+							<ul class="invest_slick">
+									<li>내 돈이 들어가고 나면 나는 원숭이가 된다 by 강환국 - 반드시 투자 전에 원칙부터 세우고 지키자! -</li>
+									<li>내 돈이 들어가고 나면 나는 원숭이가 된다 by 강환국 - 반드시 투자 전에 원칙부터 세우고 지키자! -</li>
+									<li>내 돈이 들어가고 나면 나는 원숭이가 된다 by 강환국 - 반드시 투자 전에 원칙부터 세우고 지키자! -</li>
+									<li>내 돈이 들어가고 나면 나는 원숭이가 된다 by 강환국 - 반드시 투자 전에 원칙부터 세우고 지키자! -</li>
+							</ul>
+							<a class="write_btn" href="" title="찾기"><img src="./img/write_icon.png"></a>
+						</div>
+				</div>
+				<script>
+							//slick 
+							$('.invest_slick').slick({ 
+									infinite: true,
+									slidesToShow: 1, 
+									slidesToScroll: 1, 
+									arrows: true,
+									vertical: true,
+									autoplay: true,
+									autoplaySpeed: 1000,
+								});
+				</script>
+
+				<!--달력 include할 예정-->
+
+			</div>
+		</section>
+
+		<section class="cont05">
+			<h3 class="sub_tit">
+				MDD를 모르면 고점에 물려 고생할 수 있어요!
+			</h3>
+			<div class="mdd_wrap mb20">
+				<div class="mdd_box">
+					<table class="tiker">
+					<colgroup>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+						<col style="width: 12.5%;"></col>
+					</colgroup>
+						<tbody>
+							<tr>
+								<th>티커</th>
+								<th>From</th>
+								<th>To</th>
+								<th>현재주가</th>
+								<th>고점대비<br>하락률</th>
+								<th>상승확률</th>
+								<th>최대낙폭일</th>
+								<th>최대낙폭(MDD)</th>
+							</tr>
+							<tr>
+								<td>AAPL</td>
+								<td>2011/01/01</td>
+								<td>2022/01/19</td>
+								<td>168.21</td>
+								<td>-13%</td>
+								<td>68%</td>
+								<td>2013/04/19</td>
+								<td>-44%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="mdd_box">
+					<div class="jm_search">
+						<div class="search_bar">
+							<input type="text" placeholder="이 종목 지금 사도될까? 종목을 검색하세요 ">
+							<a class="search_icon" href=""><img src="./img/search_icon.png"></a>
+						</div>
+						<p>* 현재 주가는 전고점대비 <span class="blue">-13%</span>이고, 과거 데이터를 기반으로<br>
+							보았을 때 상승확률은 <span class="red">68%</span>입니다.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tabBtn">
+				<button id="addData01">Chart1 추가</button>
+				<button id="addData02">Chart2 추가</button>
+				<button id="addData03">Chart3 추가</button>
+				<button id="addData04">Chart4 추가</button>
+				<button id="addData05">Chart5 추가</button>
+			</div>
+
+			<style>
+				.tabBtn {
+					display: flex;
+					flex-wrap: wrap;
+					box-sizing: border-box;
+					border-bottom: 1px solid #e26f12;
+					margin: 70px auto 30px; 
+				}
+				.tabBtn button {
+					position: relative;
+					border-radius: 5px 5px 0 0;
+					border-top: 1px solid #e26f12;
+					border-right: 1px solid #e26f12;
+					border-left: 1px solid #e26f12;
+					margin-right: 5px;
+					background-color: transparent;
+					width: 120px;
+					height: 45px;
+					line-height: 45px;
+					text-align: center;
+					font-size: 15px;
+					color: #0c1540;
+					font-weight: 700;
+					cursor: pointer;
+				}
+				.tabBtn button.on {    
+					color: #fff;
+					background-color: #e26f12;
+				} 
+
+				.tabBtn button::after {
+					display: block;
+					content: "";
+					position: absolute;
+					bottom: -1px;
+					left: 0;
+					width: 101%;
+					height: 1px;
+					background-color: #fff;
+				}
+
+				.tabBtn button.on::after {
+					background-color: #e26f12;
+				}
+
+			</style>
+
+			<script>
+				// 버튼 눌렀을 때 style 변경
+				$(".tabBtn > button").click(function(event){
+					event.preventDefault();
+			
+					let tabNumber = $(this).index();
+			
+					$(".tabBtn > button").removeClass("on");
+					$(this).addClass("on");
+			
+				});
+			</script>
+
+			<div class="mdd_wrap tabCont">
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">
+						AAPL MDD 차트
+					</div>
+					<div class="mdd_bot pos_rel tabGraph01">
+						<?
+							include 'graph04.php';
+						?>
+					</div>
+				</div>
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">
+						전고점 대비 하락폭 별 상승확률
+					</div>
+					<div class="mdd_bot pos_rel tabGraph02">
+						<?
+							include 'graph05.php';
+						?>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdd_wrap">
+				<div class="mdd_box wid100 brwrap">
+					<div class="mdd_top">
+						추가 그래프 01
+					</div>
+					<div class="mdd_bot pos_rel">
+						<?
+							include 'graph11.php';
+						?>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdd_wrap">
+				<div class="mdd_box wid100 brwrap">
+					<div class="mdd_top">
+						추가 그래프 02
+					</div>
+					<div class="mdd_bot pos_rel">
+						<?
+							include 'graph13.php';
+						?>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdd_wrap">
+				<div class="mdd_box brwrap">
+					<div class="mdd_top toggle_select">
+						vs <span class="mdd_top_tit">S&P500</span> (MDD)<span>▼</span>
+					</div>
+					<ul class="select_btn">
+						<li><a href="#Chart_c03" title="s&p 500">s&p 500</a></li>
+						<li><a href="#Chart_c03_02" title="nasdaq 100">nasdaq 100</a></li>
+						<li><a href="#Chart_c03_03" title="dow jones">dow jones</a></li>
+					</ul>
+					<div class="mdd_bot pos_rel">
+						<?
+							include 'graph06.php';
+						?>
+					</div>
+				</div>
+				<script>
+					var flag = true;
+					$(".toggle_select").on("click",function(event){
+							event.preventDefault();
+							if(flag){
+								$(".select_btn").stop().slideDown();
+								flag= false;
+							} else {
+								$(".select_btn").stop().slideUp();
+								flag= true;
+							}
+
+					});
+
+					$(".select_btn > li").on("click",function(event){
+						event.preventDefault();
+						let tabNumber = $(this).index();
+						let btnCont = $(this).children("a").attr("title");
+
+						$(".mdd_bot .mdd_graph").hide();
+						$(".mdd_bot .mdd_graph").eq(tabNumber).show();
+						$(".mdd_top_tit").text(btnCont);
+						$(".select_btn").css({"display":"none"});
+
+					});
+				</script>
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">
+						전고점 대비 하락폭 별 상승확률
+					</div>
+					<div class="mdd_bot pos_rel">
+						<?
+							include 'graph07.php';
+						?>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdd_wrap">
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">
+						vs S&P500 (P&L %)
+					</div>
+					<div class="mdd_bot pos_rel">
+						<?
+							include 'graph08.php';
+						?>
+					</div>
+				</div>
+				<div class="mdd_box">
+					<table class="per_chart">
+						<colgroup>
+							<col style="width: 50%;">
+							<col style="width: 50%;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>티커</th>
+								<th>수익률</th>
+							</tr>
+							<tr style="height:113px;">
+								<td>AAPL</td>
+								<td>4000%</td>
+							</tr>
+							<tr style="height:113px;">
+								<td>QQQ</td>
+								<td>500%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="cont06">
+			<h3 class="sub_tit">
+				투자의견 / 목표주가
+			</h3>
+
+			<div class="targ_wrap">
+				<div class="targ_box tar_left">
+					<div class="ora_line"></div>
+					<h3><span>3.8</span>/5.0매수</h3>
+						<?
+							include 'graph09.php';
+						?>
+					<ul class="targ_label">
+						<li>
+							<div class="line"></div>
+							<span>강력매도</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<span>매도</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<span>중립</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<span>매수</span>
+						</li>
+						<li>
+							<div class="line"></div>
+							<span>강력매수</span>
+						</li>
+					</ul>
+					<div class="targ_bottom">
+						<p> <span>00일을 기준으로</span> 애플에 대해 투자의견을 낸<br>
+							<span>40명</span>의 애널리스트의 평가입니다.</p>
+					</div>
+				</div>
+				<div class="targ_box tar_right">
+					<div class="targ_top">
+						<div class="top_left">
+							<p class="dar">$200</p>
+							<p class="s_detail"><span>▲</span><span>(+15%의 상승여력)</span></p>
+						</div>
+						<div class="top_right">
+							<p>xx월 xx일을 기준으로 목표주가를 제공한 40명의 애널리스트들의 의견을 바탕으로 합니다. <br>
+							평균 목표주가는 $200달러이며, 최고 목표주가는 250$, 최저목표주가는 90$입니다.<br>
+							현재 주가로부터 목표 주가까지 15%의 상승여력, 즉 최근 종가인 170$에서 +30$의 상승여력이 있습니다. </p>
+						</div>
+					</div>
+
+						<?
+							include 'graph10.php';
+						?>
+
+					<div class="targ_bottom">
+						<div class="bot_box">
+							<p>Highest Price Target<span>$16,00</span></p>
+						</div>
+						<div class="bot_box">
+							<p>Average Price Target<span>$8.17</span></p>
+						</div>
+						<div class="bot_box">
+							<p>Lowest Price Target<span>$1.00</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cont07">
+			<h3 class="sub_tit">
+				지금 가격.. 매수하기 적절할까요?
+			</h3>
+
+			<div class="big_buy_box">
+				<a href="" title="로그인하세요">
+					<div class="plue_btn">
+						<span>+</span>
+					</div>
+					<p>회원가입 하시고 향후 5년간의 애널리스트 컨센서스를 확인해보세요!</p>
+				</a>
+			</div>
+
+			<div class="buy_box_wrap">
+				<div class="buy_box">
+					<h4>적정주가 - 순이익관점</h4>
+					<table>
+						<colgroup>
+							<col style="width: 33.333%;"></col>
+							<col style="width: 33.333%;"></col>
+							<col style="width: 33.333%;"></col>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>적정주가<br>(성장성)</th>
+								<th>적정주가<br>(성장성+수익성)</th>
+								<th>현재주가 대비<br>적정주가 차이</th>
+							</tr>
+							<tr>
+								<td>$1<br>- 48.77<br>$1</td>
+								<td>$1<br>- 48.77<br>$1</td>
+								<td>$1<br>- 48.77<br>$1</td>
+							</tr>
+						</tbody>
+					</table>
+					<!--------------------------로그인하면 안보이는 상자----------------------------->
+					<div class="blur_box">
+						<a href="" title="로그인하세요">
+							<div class="plue_btn">
+								<span>+</span>
+							</div>
+							<p>회원가입 하시고 적정주가를 확인해보세요!</p>
+						</a>
+					</div>
+					<!--------------------------로그인하면 안보이는 상자----------------------------->
+				</div>
+				<div class="buy_box">
+					<h4>적정주가 - 매출관점</h4>
+					<table>
+						<colgroup>
+							<col style="width: 50%;"></col>
+							<col style="width: 50%;"></col>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>적정주가<br>(성장성)</th>
+								<th>현재주가 대비<br>적정주가 차이</th>
+							</tr>
+							<tr>
+								<td>$248.77</td>
+								<td>-46.64%</td>
+							</tr>
+						</tbody>
+					</table>
+					<!--------------------------로그인하면 안보이는 상자----------------------------->
+					<div class="blur_box">
+						<a href="" title="로그인하세요">
+							<div class="plue_btn">
+								<span>+</span>
+							</div>
+							<p>회원가입 하시고 적정주가를 확인해보세요!</p>
+						</a>
+					</div>
+					<!--------------------------로그인하면 안보이는 상자----------------------------->
+
+				</div>
+			</div>
+		</section>
+
+		<section class="cont08">
+			<h3 class="sub_tit">
+				미국 주식 산업별 분위기는 어떨까요?
+			</h3>
+			<div class="sec_etf_wrap">
+				<div class="ora_line"></div>
+				<div class="sec_table">
+					<table>
+						<colgroup>
+							<col style="width: 335px;">
+							<col style="width: 102px;">
+							<col style="width: 102px;">
+							<col style="width: 102px;">
+							<col style="width: 102px;">
+							<col style="width: 102px;">
+							<col style="width: 396px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>Sector</th>
+								<th>ETF</th>
+								<th>Today</th>
+								<th>1 Month</th>
+								<th>YTD</th>
+								<th>1 Year</th>
+								<th>로고 티커 등락율</th>
+							</tr>
+							<tr>
+								<td>Technology (정보기술)</td>
+								<td><span class="blue bb">XLK</span></td>
+								<td><span class="blue">-0.67%</span></td>
+								<td><span class="blue">-0.30%</span></td>
+								<td><span class="red">29.12%</span></td>
+								<td><span class="red">29.12%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Healthcare (헬스케어)</td>
+								<td><span class="blue bb">XLV</span></td>
+								<td><span class="blue">-0.70%</span></td>
+								<td><span class="red">3.13%</span></td>
+								<td><span class="red">21.58%</span></td>
+								<td><span class="red">21.58%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Consumer Staples (필수소비재)</td>
+								<td><span class="blue bb">XLP</span></td>
+								<td><span class="blue">-1.71%</span></td>
+								<td><span class="red">3.62%</span></td>
+								<td><span class="red">11.49%</span></td>
+								<td><span class="red">11.49%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Utilities (유틸리티)</td>
+								<td><span class="blue bb">XLU</span></td>
+								<td><span class="blue">-1.51%</span></td>
+								<td><span class="red">4.07%</span></td>
+								<td><span class="red">11.66%</span></td>
+								<td><span class="red">11.66%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Consumer Diser (임의소비재)</td>
+								<td><span class="blue bb">XLY</span></td>
+								<td><span class="blue">-0.68%</span></td>
+								<td><span class="blue">-6.18%</span></td>
+								<td><span class="red">21.46%</span></td>
+								<td><span class="red">21.46%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Communication Svcs (커뮤니케이션 서비스)</td>
+								<td><span class="blue bb">XLC</span></td>
+								<td><span class="blue">-0.40%</span></td>
+								<td><span class="blue">-5.04%</span></td>
+								<td><span class="red">13.34%</span></td>
+								<td><span class="red">13.34%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Basic Materials (소재)</td>
+								<td><span class="blue bb">XLB</span></td>
+								<td><span class="blue">-1.25%</span></td>
+								<td><span class="blue">-1.34%</span></td>
+								<td><span class="red">21.09%</span></td>
+								<td><span class="red">21.09%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Financial Services (금융)</td>
+								<td><span class="blue bb">XLF</span></td>
+								<td><span class="blue">-2.21%</span></td>
+								<td><span class="blue">-2.67%</span></td>
+								<td><span class="red">30.90%</span></td>
+								<td><span class="red">30.90%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Industrials (산업)</td>
+								<td><span class="blue bb">XLI</span></td>
+								<td><span class="blue">-1.71%</span></td>
+								<td><span class="blue">-3.79%</span></td>
+								<td><span class="red">15.69%</span></td>
+								<td><span class="red">15.69%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Energy (에너지)</td>
+								<td><span class="blue bb">XLE</span></td>
+								<td><span class="blue">-2.04%</span></td>
+								<td><span class="blue">-5.00%</span></td>
+								<td><span class="red">43.46%</span></td>
+								<td><span class="red">43.46%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Real Estate (부동산)</td>
+								<td><span class="blue bb">XLRE</span></td>
+								<td><span class="blue">-0.34%</span></td>
+								<td><span class="red">3.24%</span></td>
+								<td><span class="red">36.90%</span></td>
+								<td><span class="red">36.90%</span></td>
+								<td>
+									<div class="logo_wrap">
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>AAPL</p>
+												<span class="red">+0.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>MSFT</p>
+												<span class="red">+2.4%</span>
+											</div>
+										</div>
+										<div class="logo_tiker">
+											<div class="img_wrap">
+												<!--이미지 api 연결-->
+											</div>
+											<div class="txt_box">
+												<p>NVDA</p>
+												<span class="blue">-3.1%</span>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<section class="cont09">
+			<div class="mdd_wrap">
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">종목뉴스</div>
+					<div class="mdd_bot">
+						<div class="search_box clearfix">
+							<input type="text">
+							<button style="cursor:pointer;">
+								<img src="./img/search_icon.png">
+							</button>
+						</div>
+						<div class="board_wrap">
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<a class="more_btn" href="" title="더 많은 뉴스보기">
+								<span>더 많은 뉴스보기</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="mdd_box brwrap">
+					<div class="mdd_top">미국증시뉴스</div>
+					<div class="mdd_bot">
+						<div class="search_box clearfix">
+							<input type="text">
+							<button style="cursor:pointer;">
+								<img src="./img/search_icon.png">
+							</button>
+						</div>
+						<div class="board_wrap">
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+							<div class="row">
+								<div class="sum_img">
+									<!--이미지 api 연결-->
+								</div>
+								<div class="b_title">
+									제목이 들어갑니다. 제목 제목 제목 제목 제목 제목 제목 제목 제목
+								</div>
+								<div class="time">10분전</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<a class="more_btn" href="" title="더 많은 뉴스보기">
+								<span>더 많은 뉴스보기</span>
+								<span class="lnr lnr-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+</div>
+
+<?
+	include 'footer.php';
+?>

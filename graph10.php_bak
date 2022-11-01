@@ -1,0 +1,65 @@
+<div id="priceTarget" style="width: 658px; height: 300px; margin: 13px auto;"></div>
+<script>
+	$(function () {
+		Highcharts.chart('priceTarget', {
+			chart: {
+				type:'line',
+			},
+			title: {
+				text: ''
+			},
+			xAxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+			},
+			yAxis: {
+				title: {
+					text: ''
+				},
+				plotLines: [{
+					value: 0,
+					width: 1,
+					color: '#808080'
+				}]
+			},
+			legend: {
+				enabled: false
+			},
+			credits: {
+				 enabled: false
+			},
+		  exporting: {
+			enabled: false
+		  },
+			series: [{
+				showInLegend: false,
+				name: '01',
+				data: [0, 40,20, 60, 80, 80, 10],
+				color: '#39a1e8',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '02',
+				data: [0, 40,20, 60, 80, 80, 30],
+				color: '#4bc0c0',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '03',
+				data: [0, 40,20, 60, 80, 80, 50],
+				color: '#f86a87',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}]
+		});
+	});
+</script>

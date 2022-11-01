@@ -1,0 +1,238 @@
+<div class="updownPercent">
+	<div id="updownPercent01" style="width: 462px; height: 200px; "></div>
+</div>
+<script>
+	$(function () {
+		Highcharts.chart('updownPercent01', {
+			chart: {
+				type:'line',
+			},
+			title: {
+				text: ''
+			},
+			xAxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+			},
+			yAxis: {
+				title: {
+					text: ''
+				},
+				plotLines: [{
+					value: 0,
+					width: 1,
+					color: '#808080'
+				}]
+			},
+			legend: {
+				enabled: false
+			},
+			  exporting: {
+				enabled: false
+			  },
+			credits: {
+				 enabled: false
+			},
+			series: [{
+				showInLegend: false,
+				name: '01',
+				data: [0, 40,20, 60, 80, 80,0, 40,20, 60, 80, 80],
+				color: '#f86a87',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '02',
+				data: [20, 20,40, 80, 70, 60, 20, 20,40, 100, 70, 60],
+				color: '#39a1e8',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}]
+		});
+	});
+</script>
+<!--chart 2--->
+<div class="updownPercent">
+	<div id="updownPercent02" style="width: 462px; height: 200px; "></div>
+</div>
+<script>
+	$(function () {
+		Highcharts.chart('updownPercent02', {
+			chart: {
+				type:'line',
+			},
+			title: {
+				text: ''
+			},
+			xAxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+			},
+			yAxis: {
+				title: {
+					text: ''
+				},
+				plotLines: [{
+					value: 0,
+					width: 1,
+					color: '#808080'
+				}]
+			},
+			legend: {
+				enabled: false
+			},
+			  exporting: {
+				enabled: false
+			  },
+			credits: {
+				 enabled: false
+			},
+			series: [{
+				showInLegend: false,
+				name: '03',
+				data: [0, 40,20, 60, 80, 80,0, 40,20, 60, 80, 80],
+				color: '#f86a87',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '04',
+				data: [20, 20,40, 80, 70, 60, 20, 20,40, 100, 70, 60],
+				color: '#39a1e8',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}]
+		});
+	});
+</script>
+<!--chart 3--->
+<div class="updownPercent">
+	<div id="updownPercent03" style="width: 462px; height: 200px; "></div>
+</div>
+<script>
+	$(function () {
+		Highcharts.chart('updownPercent03', {
+			chart: {
+				type:'line',
+			},
+			title: {
+				text: ''
+			},
+			xAxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+			},
+			yAxis: {
+				title: {
+					text: ''
+				},
+				plotLines: [{
+					value: 0,
+					width: 1,
+					color: '#808080'
+				}]
+			},
+			legend: {
+				enabled: false
+			},
+			  exporting: {
+				enabled: false
+			  },
+			credits: {
+				 enabled: false
+			},
+			series: [{
+				showInLegend: false,
+				name: '05',
+				data: [0, 40,20, 60, 80, 80,0, 40,20, 60, 80, 80],
+				color: '#f86a87',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '06',
+				data: [20, 20,40, 80, 70, 60, 20, 20,40, 100, 70, 60],
+				color: '#39a1e8',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}]
+		});
+	});
+</script>
+<!--chart 4--->
+<div class="updownPercent">
+	<div id="updownPercent04" style="width: 462px; height: 200px; "></div>
+</div>
+<script>
+	$(function () {
+		Highcharts.chart('updownPercent04', {
+			chart: {
+				type:'line',
+			},
+			title: {
+				text: ''
+			},
+			xAxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+			},
+			yAxis: {
+				title: {
+					text: ''
+				},
+				plotLines: [{
+					value: 0,
+					width: 1,
+					color: '#808080'
+				}]
+			},
+			legend: {
+				enabled: false
+			},
+			  exporting: {
+				enabled: false
+			  },
+			credits: {
+				 enabled: false
+			},
+			series: [{
+				showInLegend: false,
+				name: '07',
+				data: [0, 40,20, 60, 80, 80,0, 40,20, 60, 80, 80],
+				color: '#f86a87',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}, {
+				name: '08',
+				data: [20, 20,40, 80, 70, 60, 20, 20,40, 100, 70, 60],
+				color: '#39a1e8',
+				  marker: {
+					enabled: true,
+					radius: 3,
+					symbol: 'dot'
+				  }
+			}]
+		});
+	});
+</script>
+<style>
+	.updownPercent {width: 100%; position: absolute;}
+</style>

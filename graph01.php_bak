@@ -1,0 +1,586 @@
+<div class="top_bnr_slick clearfix">
+	<div class="slick_box">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<div id="smallChart01" style="width: 100%; height: 60px;"></div>
+		</div>
+		<script>
+				Highcharts.chart('smallChart01', {
+					chart: {
+						type: 'spline',
+						width: 120,
+						spacingTop: 0,
+						spacingRight: 0,
+						spacingLeft: 0
+					},
+					title: {
+						text: ''
+					},
+					xAxis: {
+						categories: ['1', '2', '3', '4', '5', '6'],
+						labels: {
+							style: {
+								fontSize: '7'
+							}
+						}
+					},
+					yAxis: {
+						title: {
+							text: ''
+						},
+						labels: {
+							style: {
+								fontSize: '6'
+							}
+						},
+						plotLines: [{
+							value: 0,
+							width: 1,
+							color: '#808080'
+						}]
+					},
+					legend: {
+						enabled: false
+					},
+				  exporting: {
+					enabled: false
+				  },
+					credits: {
+						 enabled: false
+					},
+					series: [{
+						showInLegend: false,
+						name: '',
+						data: [0, 40,20, 60, 80, 80],
+						color: '#f86a87',
+						  marker: {
+							enabled: true,
+							radius: 0,
+							symbol: 'dot'
+						  }
+					}]
+				});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>Nasdaq 100</h4>
+			<p>13,742.2</p>
+			<span>-474.594(+3.58%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart02" width='100' height='45'></canvas>
+		</div>
+		<script>
+		const ctx02 = document.getElementById('Chart02').getContext('2d');
+		const myChart02 = new Chart(ctx02, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(235, 8, 40, 1)',
+					borderColor: 'rgba(235, 8, 40, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,	
+				},
+			scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>Dow Jones</h4>
+			<p>33,286.25</p>
+			<span>-653.61 (+2%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart03" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx03 = document.getElementById('Chart03').getContext('2d');
+		const myChart = new Chart(ctx03, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(235, 8, 40, 1)',
+					borderColor: 'rgba(235, 8, 40, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>Russell 2000</h4>
+			<p>185.87</p>
+			<span>-5.64(-2.95%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart04" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx04 = document.getElementById('Chart04').getContext('2d');
+		const myChart04 = new Chart(ctx04, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(118, 207, 207, 1)',
+					borderColor: 'rgba(118, 207, 207, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>VIX</h4>
+			<p>4,349.93</p>
+			<span>-6.52 (-0.15%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart05" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx05 = document.getElementById('Chart05').getContext('2d');
+		const myChart05 = new Chart(ctx05, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(118, 207, 207, 1)',
+					borderColor: 'rgba(118, 207, 207, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart06" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx06 = document.getElementById('Chart06').getContext('2d');
+		const myChart06 = new Chart(ctx06, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(235, 8, 40, 1)',
+					borderColor: 'rgba(235, 8, 40, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart07" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx07 = document.getElementById('Chart07').getContext('2d');
+		const myChart07 = new Chart(ctx07, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(235, 8, 40, 1)',
+					borderColor: 'rgba(235, 8, 40, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart08" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx08 = document.getElementById('Chart08').getContext('2d');
+		const myChart08 = new Chart(ctx08, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(235, 8, 40, 1)',
+					borderColor: 'rgba(235, 8, 40, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart09" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx09 = document.getElementById('Chart09').getContext('2d');
+		const myChart09 = new Chart(ctx09, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(118, 207, 207, 1)',
+					borderColor: 'rgba(118, 207, 207, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+	<div class="slick_box clearfix">
+		<div class="chart_txt">
+			<h4>S&P 500</h4>
+			<p>4,277.88</p>
+			<span>+107.18 (+2.57%)</span>
+		</div>
+		<div class="slick_chart">
+			<canvas id="Chart10" width='120' height='50'></canvas>
+		</div>
+		<script>
+		const ctx10 = document.getElementById('Chart10').getContext('2d');
+		const myChart10 = new Chart(ctx10, {
+			type: 'line',
+			data: {
+				labels: ['1', '2', '3', '4', '5', '6'],
+				datasets: [{
+					label: [],
+					data: [0, 40,20, 60, 80, 80],
+					backgroundColor: 'rgba(118, 207, 207, 1)',
+					borderColor: 'rgba(118, 207, 207, 1)',
+					borderWidth: 1,
+					pointRadius: 0.5,
+				}
+				]
+			},
+			options: {
+				tension: 0.5,
+				plugins: {
+				  legend: false,
+				},
+				scales: {
+					x: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 }
+						 }
+					  },
+					y: {
+						 ticks: {
+							 font: {
+								size: 8,
+							 },
+							 stepSize: 10,
+						 }
+					  }
+				}
+			}
+		});
+		</script>
+	</div>
+</div>
+
+
+	<script>
+		//slick 
+		$('.top_bnr_slick').slick({ 
+				infinite: false,
+				slidesToShow: 5, 
+				slidesToScroll: 1, 
+				arrows: true
+			});
+	</script>
+
+	<style>
+		.slick-prev.slick-disabled, .slick-next.slick-disabled {opacity: 0.5;}
+		.slick-initialized .slick-slide {display: flex !important;}
+		.slick_box {margin: 0 5px; display: flex; justify-content: space-between;}
+		.slick_chart {width: 120px;}
+		.top_bnr_slick {padding: 15px 0; width: 1220px !important; height: 80px; box-sizing: border-box;}
+
+		.chart_txt h4{margin-bottom: 5px; color: #0048df; font-size: 13px; font-weight: 600;}
+		.chart_txt p, span {font-size: 13px; font-weight: 500;}
+
+		.top_bnr_slick .slick-next:focus:before, .slick-next:hover:before, .slick-prev:focus:before, .top_bnr_slick  .slick-prev:hover:before {
+			opacity: 0;
+		}
+		.top_bnr_slick  .slick-prev:before {
+			content: '';
+		}
+		.top_bnr_slick  .slick-next:before {
+			content: '';
+		}
+		.top_bnr_slick  .slick-prev,
+		.top_bnr_slick  .slick-next
+		{	
+			width: 25px;
+			height: 25px;
+		}
+		.top_bnr_slick  .slick-prev {
+			background:url('./img/arrow_left.png') center no-repeat; 
+			left: 1226px;
+		}
+		.top_bnr_slick  .slick-next {
+			background:url('./img/arrow_right.png') center no-repeat; 
+			right: -55px;
+		}
+
+		.top_bnr_slick  .slick-prev:hover,
+		.top_bnr_slick  .slick-prev:focus
+		{
+			background:url('./img/arrow_left.png') center no-repeat; 
+		}
+		.top_bnr_slick  .slick-next:hover,
+		.top_bnr_slick  .slick-next:focus
+		{
+			background:url('./img/arrow_right.png') center no-repeat; 
+		}
+	</style>
+

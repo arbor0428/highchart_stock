@@ -1,0 +1,56 @@
+
+<div id="investOpinion" style="margin: 0 auto; width: 260px; height: 260px; "></div>
+<script>
+	$(function () {
+		Highcharts.chart('investOpinion', {
+			chart: {
+				plotBackgroundColor: null,
+				plotBorderWidth: null,
+				plotShadow: false,
+				type: 'pie'
+			},
+			title: {
+				text: ''
+			},
+			plotOptions: {
+			  pie: {
+				innerSize: '50%',
+			   colors: [
+				 '#ff6384', 
+				 '#ff9f40', 
+				 '#ffcd56', 
+				 '#4bc0c0', 
+				 '#36a2eb'
+			   ],
+                allowPointSelect: false,
+                cursor: 'pointer',
+                dataLabels: {
+					distance: -30,
+					format: '{y}',
+					color: '#fff',
+                style: {
+					fontSize:'16',
+                    fontWeight: 'bold',
+					textOutline: 'none'
+                }
+                }
+			  }
+			},
+		  exporting: {
+			enabled: false
+		  },
+			credits: {
+				 enabled: false
+			},
+			series: [{
+			  data: [
+				['강력매도', 5],
+				['매도', 10],
+				['중립', 2],
+				['매수', 20],
+				['강력매수', 15]
+			  ]
+			}]
+		});
+	});
+</script>
